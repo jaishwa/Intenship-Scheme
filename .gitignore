@@ -1,0 +1,38 @@
+# Logs and debug files
+logs
+*.log
+*.log.*
+tsc_output.txt
+tsc_output_latest.txt
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Production build output
+dist/
+dist-ssr/
+build/
+
+# Local env files - NEVER commit secrets
+.env
+.env.*
+!.env.example
+*.local
+
+# Editor and OS directories
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
